@@ -2,7 +2,8 @@ export default function TaskForm() {
 return (
   <div>
       <form>
-        <input type="text"/>
+        <button>+</button>
+        <input type="text" placeholder="Enter task"/>
       </form>
     </div>
 );
