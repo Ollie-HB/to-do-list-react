@@ -3,7 +3,7 @@ export default function Task() {
 
 return (
   <div className="task">
-    <Checkbox />
+    <Checkbox defaultChecked={true}/>
     Test task
   </div>
 

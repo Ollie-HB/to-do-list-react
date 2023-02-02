@@ -7,8 +7,6 @@ function App() {
     <main>
       <TaskForm />
       <Task />
-      <Task />
-      <Task />
       <div>
 
       </div>
