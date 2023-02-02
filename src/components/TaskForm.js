@@ -11,7 +11,7 @@ export default function TaskForm() {
           <input type="text"
                  value={taskName} 
                  onChange={ev => setTaskName(ev.target.value)}
-                 placeholder="Enter task"/>
+                 placeholder="Enter your task..."/>
         </form>
       </div>
 );

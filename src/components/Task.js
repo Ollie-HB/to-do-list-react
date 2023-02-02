@@ -1,9 +1,10 @@
-export default function TaskForm() {
+import Checkbox from "./Checkbox";
+export default function Task() {
 
 return (
-  <div>
-    <input type="checkbox"></input>
-    test task
+  <div className="task">
+    <Checkbox />
+    Test task
   </div>
 
 );

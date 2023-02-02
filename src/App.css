@@ -33,3 +33,18 @@ form button {
   border-radius: 7px;
   cursor: pointer;
 }
+
+div.task {
+  background-color: rgba(255,214,184,1);
+  border: 1px solid #312b02;
+  border-radius: 7px;
+  padding: 3px 6px;
+  margin-top: 5px;
+  display: flex;
+}
+
+div.task svg {
+  height: 20px;
+  margin-right: 4px;
+
+}
