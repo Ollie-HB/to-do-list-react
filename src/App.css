@@ -1,1 +1,35 @@
+body {
+  background: rgb(255,214,184);
+  background: linear-gradient(306deg, rgba(255,214,184,1) 0%, rgba(255,156,96,1) 100%);
+}
 
+main {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form{
+  border: 2px solid #312b02;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+form input[type="text"] {
+  background: none;
+  border: 0;
+  padding: 0px 8px;
+  display: block;
+  width: 100%
+}
+
+form button {
+  background: rgba(255,214,184,1);
+  border: 2px solid #312b02;
+  border-radius: 7px;
+  cursor: pointer;
+}

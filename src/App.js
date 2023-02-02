@@ -4,13 +4,15 @@ import Task from "./components/Task"
 
 function App() {
   return (
-    <div>
+    <main>
       <TaskForm />
+      <Task />
+      <Task />
       <Task />
       <div>
 
       </div>
-    </div>
+    </main>
   );
 }
 
